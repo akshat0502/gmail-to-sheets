@@ -1,9 +1,20 @@
 # Gmail to Google Sheets Automation
 
-**Author:** Akshat Seth  
+**Author:** Akshat Saxena  
 **Project Type:** Python Automation (Intern Assignment)
 
 ---
+
+## 📸 Proof of Execution
+
+The `/proof/` folder contains the following:
+
+- `gmail_unread.png` – Gmail inbox showing unread emails
+- `google_sheet_rows.png` – Google Sheet populated by the script
+- `oauth_consent.png` – OAuth 2.0 consent screen
+- `demo_video.mp4` – 2–3 minute screen recording explaining project flow
+
+These files demonstrate successful execution of the project as required.
 
 ## 📖 Project Overview
 
@@ -17,19 +28,16 @@ The script reads real incoming **unread emails from Gmail Inbox** and logs them 
 
 Each qualifying email is appended as a new row in Google Sheets with the following fields:
 
-| Column | Description |
-|------|-------------|
-| From | Sender email address |
-| Subject | Email subject |
-| Date | Date & time received |
+| Column  | Description             |
+| ------- | ----------------------- |
+| From    | Sender email address    |
+| Subject | Email subject           |
+| Date    | Date & time received    |
 | Content | Email body (plain text) |
 
 ---
 
 ## 🧠 High-Level Architecture Diagram
-
-
-
 
 Gmail Inbox (Unread Emails)
 |
@@ -46,8 +54,6 @@ State Manager
 | Google Sheets API (OAuth 2.0)
 v
 Google Sheet (Append Rows)
-
-
 
 ---
 
@@ -67,8 +73,8 @@ Google Sheet (Append Rows)
 
 state.json
 
-
 ### Why this approach:
+
 - Simple and lightweight
 - No external database needed
 - Easy to debug
@@ -79,18 +85,3 @@ state.json
 ## ⚙️ How to Run the Project
 
 ### 1️⃣ Install dependencies
-pip install -r requirements.txt
-
-
-2️⃣ Add Google OAuth credentials
-
-Place credentials.json inside:
-
-credentials/credentials.json
-
-3️⃣ Configure Google Sheet
-
-Update SPREADSHEET_ID in config.py.
-
-4️⃣ Run the script
-python -m src.main
