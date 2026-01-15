@@ -79,8 +79,9 @@ state.json
 ## ⚙️ How to Run the Project
 
 ### 1️⃣ Install dependencies
-```bash
 pip install -r requirements.txt
+
+
 2️⃣ Add Google OAuth credentials
 
 Place credentials.json inside:
