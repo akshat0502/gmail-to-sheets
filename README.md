@@ -81,3 +81,15 @@ state.json
 ### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
+2️⃣ Add Google OAuth credentials
+
+Place credentials.json inside:
+
+credentials/credentials.json
+
+3️⃣ Configure Google Sheet
+
+Update SPREADSHEET_ID in config.py.
+
+4️⃣ Run the script
+python -m src.main
