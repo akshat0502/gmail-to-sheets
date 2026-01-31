@@ -1,15 +1,3 @@
-# Gmail to Google Sheets Automation
-
-**Author:** Akshat Saxena  
-**Project Type:** Python Automation (Intern Assignment)
-
----
-
-## 📖 Project Overview
-
-This project is a Python automation system that connects to the **Gmail API** and **Google Sheets API** using **OAuth 2.0 (Desktop Application Flow)**.
-
-The script reads **real incoming unread emails** from the Gmail Inbox and logs them into a Google Sheet. Each email is processed **only once** to prevent duplicate entries and is marked as **read** after successful processing.
 
 ---
 
