@@ -215,5 +215,5 @@ Copy code
 After pasting this file:
 
 ```bash
-
+git add README.md
 
