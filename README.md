@@ -214,3 +214,6 @@ Copy code
 
 After pasting this file:
 
+```bash
+
+
