@@ -1,4 +1,7 @@
 # Gmail to Google Sheets Automation
+**Author:** Akshat Saxena  
+**Project Type:** Python Automation (Intern Assignment)
+
 
 ---
 
