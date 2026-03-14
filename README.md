@@ -215,7 +215,4 @@ Copy code
 
 After pasting this file:
 
-```bash
-git add README.md
-git commit -m "Update README to match assignment rubric"
-git push
+
